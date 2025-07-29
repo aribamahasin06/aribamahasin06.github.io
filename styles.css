@@ -1,0 +1,53 @@
+
+.profile{
+    background-image: linear-gradient(lightgray, white);
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.description{
+    font-size: 16px;
+    color: darkslategray;
+}
+
+.INFO{
+    display: flex; 
+    /*allows for sections inside each other*/
+    flex-direction: row;
+    /*column for up and down, row for left and right*/
+}
+
+.info{
+    flex: 0.7; 
+    padding: 20px;
+    margin: 20px;
+    background-color: lightcyan;
+    border-radius: 10px;
+}
+.Contact{
+    flex: 0.3; 
+    padding: 20px;
+    margin: 20px;
+    background-color: lightyellow;
+    border-radius: 10px;
+}
+.car-image{
+    flex: 1; 
+    padding-top: 700px;
+    margin: 20px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-image: url('https://wallpapers.com/images/hd/studio-ghibli-art-2149-x-2151-wallpaper-co0srshquzlcsn2s.jpg');
+    /* background: linear-gradient(lightblue, lightgreen); */
+    /* background-attachment: fixed; makes it fixed in the view*/ 
+}
