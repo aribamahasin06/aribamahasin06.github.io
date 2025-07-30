@@ -43,6 +43,13 @@
     align-items: center;
     margin-top: 20px;
 }
+.user-info{
+    flex: 0.7; 
+    padding: 20px;
+    margin: 20px;
+    background-color: lightcyan;
+    border-radius: 10px;
+}
 
 body, html {
     height: 100%;
